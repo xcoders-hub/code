@@ -1,0 +1,47 @@
+<?php
+$config = array();
+$config['secure'] = true;
+$config['password'] = "";
+$config['admin'] = "";
+$config['homepage'] = "";
+$config['download_prefix'] = "";
+$config['download_suffix'] = "";
+$config['limitMBIP'] = 1024 * 102400;
+$config['ttl'] = 6 * 60;
+$config['limitPERIP'] = 10000;
+$config['ttl_ip'] = 1;
+$config['max_jobs_per_ip'] = 10000;
+$config['max_jobs'] = 50000;
+$config['max_load'] = 50000;
+$config['max_size_default'] = 10240000;
+$config['file_size_limit'] = 102400;
+$config['title'] = "[color=red][b]DOWNLOAD[/b][/color]";
+$config['colorfilename'] = "green";
+$config['colorfilesize'] = "blue";
+$config['listfile'] = false;
+$config['showlinkdown'] = true;
+$config['showdirect'] = true;
+$config['redirectdl'] = true;
+$config['bbcode'] = true;
+$config['longurl'] = false;
+$config['privatefile'] = false;
+$config['privateip'] = false;
+$config['checkacc'] = false;
+$config['checklinksex'] = false;
+$config['rename'] = true;
+$config['delete'] = true;
+$config['display_error'] = false;
+$config['ziplink'] = false;
+$config['apiadf'] = "";
+$config['apirutgon'] = "";
+$config['Googlzip'] = false;
+$config['googleapikey'] = '';
+$config['bitly'] = false;	
+$config['BitLylogin'] = 'hotteenvn';
+$config['BitLyApi'] = 'R_0b0ac9c4d9714755a7cc5a6dffe897ab';
+$config['badword'] = "";
+$config['language'] = "english";
+$config['skin'] = "default";
+$config['cbox url'] = "http://www4.cbox.ws/box/?boxid=4240872&boxtag=soigia&sec=submit";
+
+?>
